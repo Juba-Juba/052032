@@ -1,3 +1,18 @@
 {
   "developerPasswordEncrypted": "psenc.v1.KDsXkihFDvMYqfQG.Fu86384/cUca4uorIx+fU9X2OZ/oqzXUZXiX/6GwjisIFeNTdukL3K5YLurYTEhg"
+
+  "subscriptions": [
+    {
+      "encryptedId": "DEVICE_1_ENCRYPTED_ID",
+      "serial": "SERIAL_1",
+      "enabled": true,
+      "expiresAt": "2027-12-31"
+    },
+    {
+      "encryptedId": "DEVICE_2_ENCRYPTED_ID",
+      "serial": "SERIAL_2",
+      "enabled": false,
+      "expiresAt": "2027-12-31"
+    }
+  ]
 }
