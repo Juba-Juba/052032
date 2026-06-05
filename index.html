@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Price Scanner — نظام قراءة الأسعار الذكي</title>
+  <title>Price Scanner Pro — نظام قراءة الأسعار الذكي</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&family=Tajawal:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap"
@@ -2386,10 +2386,32 @@
 
     .feature-icon,
     .source-icon,
-    .detail-icon {
+    .detail-icon,
+    .ef-icon,
+    .appear-option-icon {
+      width: 46px !important;
+      height: 46px !important;
+      min-width: 46px !important;
+      max-width: 46px !important;
+      padding: 0 !important;
+      display: inline-grid !important;
+      place-items: center !important;
+      line-height: 1 !important;
       background: var(--sage) !important;
       color: #214243 !important;
-      border-radius: 18px !important;
+      border-radius: 12px !important;
+      flex: 0 0 46px !important;
+      box-shadow: inset 0 0 0 1px rgba(34, 40, 49, .06);
+    }
+
+    .feature-title .feature-icon {
+      margin-inline-end: 10px;
+      vertical-align: middle;
+    }
+
+    #new-details .feature-card>.feature-icon {
+      margin: 0 auto 20px !important;
+      font-size: 1.35rem !important;
     }
 
     .featured-plan,
@@ -2707,7 +2729,7 @@
   <nav>
     <a href="#" class="nav-logo">
       <div class="icon">🏷️</div>
-      Price Scanner
+      Price Scanner Pro
     </a>
     <ul class="nav-links">
       <li><a href="#data-sources">مصادر البيانات</a></li>
@@ -2760,7 +2782,7 @@
               <div class="dot red"></div>
               <div class="dot yellow"></div>
               <div class="dot green"></div>
-              <div class="mockup-title">Price Scanner v3.0.0</div>
+              <div class="mockup-title">Price Scanner Pro v3.0.0</div>
             </div>
 
             <div class="search-bar">
@@ -3028,7 +3050,7 @@
               <span class="partner-name" dir="rtl">مع PharmaFly</span>
               <div class="app-title">
                 <span class="ver-badge">v3.0.0</span>
-                Price Scanner Pro
+                Price Scanner Pro Pro
               </div>
               <span class="inst-name" dir="rtl">صيدليات مقصود رضا</span>
             </div>
@@ -3663,7 +3685,7 @@
   <footer>
     <div class="container">
       <p>
-        <span>Price Scanner</span> v3.0.0 &nbsp;|&nbsp; جميع الحقوق محفوظة &copy; 2026
+        <span>Price Scanner Pro</span> v3.0.0 &nbsp;|&nbsp; جميع الحقوق محفوظة &copy; 2026
       </p>
     </div>
   </footer>
@@ -3679,9 +3701,9 @@
   <script>
     /* ── Language runtime, selector-safe ── */
     const langMeta = {
-      ar: { label: 'AR', dir: 'rtl', title: 'Price Scanner — نظام قراءة الأسعار الذكي' },
-      en: { label: 'EN', dir: 'ltr', title: 'Price Scanner — Smart Price Reading System' },
-      fr: { label: 'FR', dir: 'ltr', title: 'Price Scanner — Système intelligent de lecture des prix' }
+      ar: { label: 'AR', dir: 'rtl', title: 'Price Scanner Pro — نظام قراءة الأسعار الذكي' },
+      en: { label: 'EN', dir: 'ltr', title: 'Price Scanner Pro — Smart Price Reading System' },
+      fr: { label: 'FR', dir: 'ltr', title: 'Price Scanner Pro — Système intelligent de lecture des prix' }
     };
 
     const langText = {
@@ -3837,7 +3859,7 @@
         '#cta .cta-title': 'جاهز للبدء؟<br><span style="color:var(--gold)">نحن هنا معك.</span>',
         '#cta .cta-desc': 'ابدأ باشتراك مجاني الآن، أو تواصل معنا مباشرةً لمعرفة الباقة المناسبة لحجم مؤسستك.',
         '#cta .btn-primary': '📲 تواصل عبر واتساب',
-        'footer p': '<span>Price Scanner</span> v3.0.0 &nbsp;|&nbsp; جميع الحقوق محفوظة &copy; 2026'
+        'footer p': '<span>Price Scanner Pro</span> v3.0.0 &nbsp;|&nbsp; جميع الحقوق محفوظة &copy; 2026'
       },
       en: {
         '.nav-links a[href="#data-sources"]': 'Data sources',
@@ -3991,7 +4013,7 @@
         '#cta .cta-title': 'Ready to start?<br><span style="color:var(--gold)">We are here with you.</span>',
         '#cta .cta-desc': 'Start with a free subscription now, or contact us directly to choose the right plan for your institution.',
         '#cta .btn-primary': '📲 Contact on WhatsApp',
-        'footer p': '<span>Price Scanner</span> v3.0.0 &nbsp;|&nbsp; All rights reserved &copy; 2026'
+        'footer p': '<span>Price Scanner Pro</span> v3.0.0 &nbsp;|&nbsp; All rights reserved &copy; 2026'
       },
       fr: {
         '.nav-links a[href="#data-sources"]': 'Sources',
@@ -4145,7 +4167,7 @@
         '#cta .cta-title': 'Prêt à commencer ?<br><span style="color:var(--gold)">Nous sommes avec vous.</span>',
         '#cta .cta-desc': 'Commencez avec un abonnement gratuit ou contactez-nous pour choisir l’offre adaptée à votre établissement.',
         '#cta .btn-primary': '📲 Contacter sur WhatsApp',
-        'footer p': '<span>Price Scanner</span> v3.0.0 &nbsp;|&nbsp; Tous droits réservés &copy; 2026'
+        'footer p': '<span>Price Scanner Pro</span> v3.0.0 &nbsp;|&nbsp; Tous droits réservés &copy; 2026'
       }
     };
 
