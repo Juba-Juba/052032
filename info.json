@@ -3,7 +3,7 @@
   "subscriptions": [
     {
       "encryptedId": "JUBA_SdlIkKze3YdUmR9v1sf5uA==",
-      "serial": "17BXNTMOT19EG8OCQP59CD",
+      "serial": "O7BXNVMOT19EGPZTQP52FE",
       "enabled": true,
       "expiresAt": "2027-12-31"
     },
@@ -19,5 +19,5 @@
       "expiresAt": "2027-12-31"
     }
   ],
-  "signature": "pssig.v1.Vv-EBEyeP5xoyvOmdUr-4UqfrCQ4mN-2EzfCGZKuOYn_6FoFMxoqlWBhbjzR5Ex12TLOu5LcwP16pMGwBq25617lcN8W9qKfp-2cI85IMJtxUdx2Npbkv_UBdg5LMg8VUZegUfxFJyNKEtqFdrSFrSW0wylt5Tockk_wMM5ehjiqKR_j8CsXcUBib8Pj-PW2zEnP1BGTO-uNhdZDqbdv8bcjwnUi06RCOPkIWJLHBsHS2WJYjsFIAc2JCmUzbCNe3Lev2ZEjUw8zn4E9MZuJBzelGmUjInzzjX3CHQKTVdnwqm_FOq8yGJGa80gp6NBoeeaWrUHnjINviVb80pTkLww5DY2lF0ahZ6Leb6ajDw7nxrrIHhLy1PQK3WqLgcBKilTAYQ3XWHbDcgF1ZQFHTODfGWMquOgrsVbXcZb7n5aDRrx78-v3z1EC0hL7GHUYO8QLf9YKi1PNPhzP8yqAi7doH3iFtFN52vi7XXj92epyTtV2il-wbLpxYWTSyWja"
+  "signature": "pssig.v1.S5z4E6LiKgJnM9wBFR-wgtNOK8M5bm8qNtK-UcN-dQ97-eqbv7UXjDFroKozFdc5cH2pUYl5lIVakcgMybg6og3KTa2t3PZx6ZwQG3qPP-X4y_1Cs2hUUIvsBWY6QqoPFLOWPn70tlGnF9_VZ6dHv4CGja8ZgVS-KqKCQehxcOqyBY0rXSI1lU5Z3tnV-a9b-6xwXdnFFNmapKttTa-p-337rjmAe-MKzj5yOKu1yioC2xlCIg6USWGA7i-NcQ8OukWAhYrJEmAwGxh1ztYXVADoxXoZlHWr_4jn_D_NuKnKg3t2Miao51iuhOY5qgBNJ6rU18-_9wH-7OlceSExY0lZz6YvE4xEoxzCE78_AzJjE5zGTZC8x-az2aY21bF_1864GpMg261HdCY2mwaRZf5gZJQ7UvepjfmnesQWHente1AnJW-gEWHDe5MhRK-__bElVhtVzaZ8cn0ckaWbyqA4mIkY8SUCkm7x_-A1l9_IJpOKRQ0gey6eXLISBl0Y"
 }
